@@ -1,12 +1,18 @@
 <script>
 
-import Navigation from './components/navigation.vue';
+import Navigation from './components/Navigation.vue';
 import Hero from './components/Hero.vue';
+import About from './components/About.Vue';
+import Work from './components/Work.vue';
+import Contact from './components/Contact.vue';
 
 export default{
   components: {
     Navigation,
-    Hero
+    Hero,
+    About,
+    Work,
+    Contact
   }
 }
 </script>
@@ -20,6 +26,11 @@ export default{
   <!-- Main -->
   <main>
     <Hero />
+    <div class="relative ml-auto w-1/2">
+      <About />
+      <Work />
+      <Contact />
+    </div>
   </main>
 </template>
 

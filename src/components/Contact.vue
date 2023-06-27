@@ -1,6 +1,6 @@
 <template>
     <!-- Contact Me Section -->
-    <section id="contact" class="min-h-screen flex items-center p-20 bg-yellow text-purple">
+    <section class="min-h-screen flex items-center p-20 bg-yellow text-purple overlap-section relative" id="contact">
         <div>
             <h2 class="text-4xl font-bold mb-10">Let's Collaborate and Create Magic!</h2>
             <p class="mb-5">Whether you're seeking a passionate front-end developer, a creative collaborator, or simply want to chat about all things tech, I'm just a click away.</p>

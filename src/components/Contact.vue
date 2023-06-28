@@ -10,21 +10,21 @@
                     <p class="flex items-center">
                         <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10">
                         <span class="text-sm md:text-lg lg:text-lg">Let's code together: </span>
-                        <b><a href="https://github.com/amirana" target="_blank" class="inline-block text-purple ml-2 solid underline text-sm md:text-lg lg:text-lg">GitHub</a></b>
+                        <b><a href="https://github.com/amirana" target="_blank" class="inline-block text-purple ml-2 solid text-sm md:text-lg lg:text-lg transition-all duration-300 relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">GitHub</a></b>
                     </p>
                 </li>
                 <li class="mb-10">
                     <p class="flex items-center"> 
                         <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10"/>
                         <span class="text-sm md:text-lg lg:text-lg">Connect with me: </span>
-                        <b><a href="ttps://www.linkedin.com/in/ami-rana/" target="_blank" class="inline-block text-purple ml-2 solid underline text-sm md:text-lg lg:text-lg">LinkedIn </a></b>
+                        <b><a href="ttps://www.linkedin.com/in/ami-rana/" target="_blank" class="inline-block text-purple ml-2 solid text-sm md:text-lg lg:text-lg transition-all duration-300 relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">LinkedIn </a></b>
                     </p>
                 </li>
                 <li>
                     <p class="flex items-center"> 
                         <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10"/>
                         <span class="text-sm md:text-lg lg:text-lg">Discuss ideas:</span>
-                        <b><a href="mailto:ranaami1223@gmail.com" class="inline-block text-purple ml-2 solid underline text-sm md:text-lg lg:text-lg"> Gmail </a></b>
+                        <b><a href="mailto:ranaami1223@gmail.com" class="inline-block text-purple ml-2 solid text-sm md:text-lg lg:text-lg transition-all duration-300 relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full"> Gmail </a></b>
                     </p>
                 </li>
             </ul>

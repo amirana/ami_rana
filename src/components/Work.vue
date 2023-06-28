@@ -1,75 +1,59 @@
 <template>
     <!-- Some of My Work Section -->
     <section class="min-h-screen  flex items-center bg-lightPurple text-purple sections overlap-section relative" id="work">
-        <div>
-            <h2 class="text-2xl md:text-4xl lg:text-4xl font-bold py-10 md:py-20 lg:py-20 text-center">Some of My Works</h2>
-            <ul class="flex flex-wrap">
+        <div class="text-center">
+            <h2 class="text-2xl md:text-4xl lg:text-4xl font-bold text-center pb-10">Some of My Works</h2>
+            <ul class="flex flex-wrap py-10">
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-b group overflow-hidden relative">
                     <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">Portfolio Website</span>
+                            <span class="text-sm md:text-md">Built with HTML, Tailwind CSS and VueJs</span>
                        </span> 
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-solid border-l border-b group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
+                    <a href="https://www.blowbroadcast.com/" class="text-lg md:text-xl lg:text-xl" target="_blank">Blow Broadcast
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">Arthouse Website</span>
+                            <span class="text-sm md:text-md">HTML, SCSS and JavaScript</span>
                        </span> 
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-b group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
+                    <a href="https://inordinary.in/" class="text-lg md:text-xl lg:text-xl" target="_blank">InOrdinary Store
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">E-commerce website</span>
+                            <span class="text-sm md:text-md">Custom WordPress E-commerce Theme</span>
                        </span> 
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-solid border-l border-b group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
+                    <a href="https://dreamknots.in/" class="text-lg md:text-xl lg:text-xl" target="_blank">DreamKnots
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">Wedding Planner Website</span>
+                            <span class="text-sm md:text-md">HTML, CSS and JavaScript</span>
                        </span> 
                     </a>
                 </li>
-                <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-b group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
+                <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center group relative overflow-hidden">
+                    <a href="https://www.figma.com/proto/MgclJcR9H1jfr6s2bTgdz5/Hi-fi-Prototype?type=design&node-id=8-6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A6&mode=design" class="text-lg md:text-xl lg:text-xl" target="_blank">Book Studio
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
-                       </span> 
-                    </a>
-                </li>
-                <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-solid border-l border-b group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
-                       <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
-                       </span> 
-                    </a>
-                </li>
-                <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-b-0 group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
-                       <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">Book Exchange Application (UI/ UX Design)</span>
+                            <span class="text-sm md:text-md">Miro Board, Trello, Maze, Figma</span>
                        </span> 
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-solid border-l group relative overflow-hidden">
-                    <a href="https://ami-rana.vercel.app/" class="text-lg md:text-xl lg:text-xl" target="_blank">Ami Rana Portfolio
+                    <a href="https://www.figma.com/proto/AlU4ycck3fZSNxXpoURkzk/Prototype?type=design&node-id=4-35&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A35&mode=design" class="text-lg md:text-xl lg:text-xl" target="_blank">Traverse
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
-                            <span class="font-semibold text-base md:text-xl mb-3">Portfolio website</span>
-                            <span class="text-sm md:text-lg">Built with HTML, Tailwind CSS and VueJs</span>
+                            <span class="font-semibold text-base md:text-md mb-3">Travel Application (UI/UX Design)</span>
+                            <span class="text-sm md:text-md">Miro Board, Trello, Maze, Figma</span>
                        </span> 
                     </a>
                 </li>
             </ul>
+            <a href="#" class="text-sm md:text-lg lg:text-lg inline-block mt-10 m-auto relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">View More Projects</a>
         </div>
-       
     </section>
 </template>

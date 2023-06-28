@@ -1,6 +1,6 @@
 <template>
     <div class="relative">
-        <div @click="toggleMenu" class="hamburger cursor-pointer w-16 py-6" >
+        <div @click="toggleMenu" class="hamburger cursor-pointer xl:w-16 py-6" >
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" width="50px" height="50px" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
               <g style="opacity:0.35;">
                 <path d="M93,35.5v-11c0-3.584-2.916-6.5-6.5-6.5h-69c-3.584,0-6.5,2.916-6.5,6.5v11c0,2.317,1.222,4.349,3.052,5.5   C12.222,42.151,11,44.183,11,46.5v11c0,2.317,1.222,4.349,3.052,5.5C12.222,64.151,11,66.183,11,68.5v11c0,3.584,2.916,6.5,6.5,6.5   h69c3.584,0,6.5-2.916,6.5-6.5v-11c0-2.317-1.222-4.349-3.052-5.5C91.778,61.849,93,59.817,93,57.5v-11   c0-2.317-1.222-4.349-3.052-5.5C91.778,39.849,93,37.817,93,35.5z"/>
@@ -25,12 +25,12 @@
               </svg>        
           </div>
 
-        <nav class="menu absolute -top-4 -left-10 w-full p-10 rounded-md shadow-[0_5px_5px_10px_-15px_rgba(46,48,75,.15)] bg-yellow duration-300 ease-in-out transform origin-[20%_20%] transition-all" :class="[{'opacity-0': !isMenuOpen}, {'scale-0': !isMenuOpen}, {'scale-100': isMenuOpen}]">
+        <nav class="menu absolute z-10 -top-1 md:-top-1 lg:-top-4 -left-7 md:-left-6 lg:-left-10 w-full md:w-1/2 lg:w-full p-7 lg:p-10 rounded-md shadow-[5px_5px_10px_rgba(46,48,75,.15)] bg-yellow duration-300 ease-in-out transform origin-[20%_20%] lg:origin-[20%_20%] transition-all" :class="[{'opacity-0': !isMenuOpen}, {'scale-0': !isMenuOpen}, {'scale-100': isMenuOpen}]">
             
             <div class="btn-close flex items-center">
 
               <!-- Close Button SVG code -->
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" @click="toggleMenu" class="w-1/4 cursor-pointer" width="50px" height="50px" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" @click="toggleMenu" class="w-1/4 md:w-auto cursor-pointer" width="50px" height="50px" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
                 <g id="Слой_1">
                 </g>
                 <g id="Слой_2">
@@ -52,10 +52,11 @@
             </div>
 
             <!-- Menu list -->
-            <ul class="menu-list pl-2.5 pt-10">
-                <li><a href="#about" class="mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">About</a></li>
-                <li><a href="#work" class="mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Work</a></li>
-                <li><a href="#contact" class="mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Contact</a></li>
+            <ul class="menu-list pl-2.5 pt-5 lg:pt-10">
+                <li><a href="#" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Home</a></li>
+                <li><a href="#about" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">About</a></li>
+                <li><a href="#work" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Work</a></li>
+                <li><a href="#contact" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Contact</a></li>
                 <li><a href="https://drive.google.com/file/d/13J0w-aIxsqWqLgofuwkLLjA8kS4RZZof/view?usp=sharing" target="_blank" class="inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Resume</a></li>
             </ul>
         </nav>
@@ -63,6 +64,9 @@
 </template>
 
 <script>
+
+import { RouterLink } from 'vue-router';
+
 export default {
   data() {
     return {
@@ -73,6 +77,7 @@ export default {
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
+    
   },
 }
 </script>

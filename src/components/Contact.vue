@@ -1,17 +1,17 @@
 <template>
     <!-- Contact Me Section -->
-    <section class="min-h-screen flex items-center p-20 bg-yellow text-purple overlap-section relative" id="contact">
+    <section class="min-h-screen flex items-center p-10 md:p-20 lg:p-20 bg-yellow text-purple overlap-section relative" id="contact">
         <div>
-            <h2 class="text-4xl font-bold mb-10">Let's Collaborate and Create Magic!</h2>
-            <p class="mb-5">Whether you're seeking a passionate front-end developer, a creative collaborator, or simply want to chat about all things tech, I'm just a click away.</p>
-            <p>Let's bring our ideas to life and make a difference together! Looking forward to connecting with you! ✨</p>
-            <ul class="my-20">
+            <h2 class="text-2xl md:text-4xl md:leading-relaxed lg:leading-relaxed lg:text-4xl font-bold mb-7 md:mb-10 lg:mb-10">Let's Collaborate and Create Magic!</h2>
+            <p class="text-sm md:text-lg lg:text-lg leading-6 mb-5">Whether you're seeking a passionate front-end developer, a creative collaborator, or simply want to chat about all things tech, I'm just a click away.</p>
+            <p class="text-sm md:text-lg lg:text-lg leading-6">Let's bring our ideas to life and make a difference together! Looking forward to connecting with you! ✨</p>
+            <ul class="my-10 md:my-20 lg:my-20">
                 <li class="mb-10">
                     <p class="flex items-center">
-                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-10">
-                        <span>Let's code together: </span>
+                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10">
+                        <span class="text-sm md:text-lg lg:text-lg w-10/12 lg:w-auto">Let's code together: </span>
                         <a href="https://github.com/amirana" target="_blank">
-                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5"
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5 transform scale-100 transition-transform duration-300 ease-in-out hover:scale-150"
                                 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
                                 <g id="&#x421;&#x43B;&#x43E;&#x439;_1">
                                     <g>
@@ -38,10 +38,10 @@
                 </li>
                 <li class="mb-10">
                     <p class="flex items-center"> 
-                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-10"/>
-                        <span>Connect with me professionally: </span>
+                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10"/>
+                        <span class="text-sm md:text-lg lg:text-lg w-10/12 lg:w-auto">Connect with me professionally: </span>
                         <a href="ttps://www.linkedin.com/in/ami-rana/" target="_blank">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5"
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5 transform scale-100 transition-transform duration-300 ease-in-out hover:scale-150"
                                     viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
                                 <path style="fill:#0078D4;" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5
                                     V37z"/>
@@ -63,10 +63,10 @@
                 </li>
                 <li>
                     <p class="flex items-center"> 
-                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-10"/>
-                        <span>Shoot me an email to discuss ideas:</span>
+                        <img src="./img/icon-finger.png" alt="" class="mr-5 w-8 md:w-10 lg:w-10"/>
+                        <span class="text-sm md:text-lg lg:text-lg w-10/12 lg:w-auto">Shoot me an email to discuss ideas:</span>
                         <a href="mailto:ranaami1223@gmail.com"> 
-                            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5"
+                            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40" height="40" class="inline-block ml-5 transform scale-100 transition-transform duration-300 ease-in-out hover:scale-150"
                                 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
                             <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="15.0715" y1="13.6236" x2="24.1106" y2="24.1286">
                                 <stop  offset="0" style="stop-color:#E3E3E3"/>

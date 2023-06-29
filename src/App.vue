@@ -16,7 +16,7 @@ export default {
     Intro,
     About,
     Work,
-    Contact
+    Contact,
   },
 };
 </script>
@@ -38,7 +38,7 @@ export default {
             <Intro />
             <About />
             <Work />
-            <Contact />
+            <Contact />           
         </div>
       </div>
       <!-- <CustomCursor /> -->

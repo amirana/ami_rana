@@ -45,7 +45,7 @@
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center group relative border-l border-b overflow-hidden">
-                    <a href="https://www.figma.com/proto/MgclJcR9H1jfr6s2bTgdz5/Hi-fi-Prototype?type=design&node-id=8-6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=8%3A6&mode=design" class="text-lg md:text-xl lg:text-xl" target="_blank">Book Studio
+                    <a href="https://www.behance.net/gallery/174467813/Book-Studio-Book-Exchange-Sell-Donate-App" class="text-lg md:text-xl lg:text-xl" target="_blank">Book Studio
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
                             <span class="font-semibold text-base md:text-md mb-3">Book Exchange Application (UI/ UX Design)</span>
                             <span class="text-sm md:text-md">Miro Board, Trello, Maze, Figma</span>
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li class="w-1/2 p-10 md:p-16 lg:p-16 text-center border-solid border-l group relative overflow-hidden">
-                    <a href="https://www.figma.com/proto/AlU4ycck3fZSNxXpoURkzk/Prototype?type=design&node-id=4-35&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A35&mode=design" class="text-lg md:text-xl lg:text-xl" target="_blank">Traverse
+                    <a href="https://www.behance.net/gallery/174453017/Traverse-A-Solo-Traveller-App" class="text-lg md:text-xl lg:text-xl" target="_blank">Traverse
                        <span class="hover__content p-5 w-full h-full bg-purple text-white flex flex-col items-center justify-center invisible absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 transition-opacity transition-bg duration-300 group-hover:visible group-hover:opacity-100">
                             <span class="font-semibold text-base md:text-md mb-3">Travel Application (UI/UX Design)</span>
                             <span class="text-sm md:text-md">Miro Board, Trello, Maze, Figma</span>

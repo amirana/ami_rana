@@ -57,7 +57,7 @@
                 <li><a href="#about" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">About</a></li>
                 <li><a href="#work" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Work</a></li>
                 <li><a href="#contact" class="mb-5 lg:mb-8 inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Contact</a></li>
-                <li><a href="/Ami Rana_Frontend Developer_ Resume.pdf" target="_blank" class="inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Resume</a></li>
+                <li><a href="/Resume_AmiRana_FrontendDeveloper.docx" target="_blank" class="inline-block text-purple relative after:content-[''] after:inline-block after:absolute after:left-0 after:bottom-0 after:w-0 after:h-0.5 after:bg-purple after:transition-all hover:after:w-full">Resume</a></li>
             </ul>
         </nav>
   </div>
